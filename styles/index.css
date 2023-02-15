@@ -1,40 +1,124 @@
-.body {
-    background-color: #BE0909;
+.macbook {
+    Width: 1440px;
+    Height: 900px;
+    background: #9DBEBB;
     display: flex;
-    padding-left: 65px;
-    padding-top: 64px;
-    font-family: 'Roboto';
+}
+
+.invite-form {
+    background-color: #BE0909;
+    color: #FEFFFF;
+    Width: 954px;
+    Height: 594px;
+    display: flex;
+    max-width: 100%;
+    margin-left: 308px;
+    margin-top: 153px;
+    font-family: 'Roboto', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    text-transform: uppercase;
+    /* Hur får jag bort de */
+
+}
+
+.all-text {
+    margin-left: 65px;
+    margin-top: 64px;
+}
+
+.full_name {
+    height: 72px;
+    font-family: 'Roboto', sans-serif;
     font-style: normal;
     font-weight: 400;
     font-size: 18px;
     line-height: 21px;
     letter-spacing: 0.1em;
     text-transform: uppercase;
-
-color: #FEFFFF;
-
-}
-
-.full_name {
-    height: 72px;
+    border-bottom: 1px solid #9DBEBB; width: 400px;
 }
 
 .topic_email {
     height: 72px;
+    font-family: 'Roboto', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 21px;
+    letter-spacing: 0.1em;
+    text-transform: uppercase;
+    border-bottom: 1px solid #9DBEBB; width: 160px;
 }
 
 .topic_messade_regarding {
     height: 72px;
+    border-bottom: 1px solid #9DBEBB; width: 160px;
+    /* varför blir border kontig när jag ändrar den till 160px i bredd?*/
+    font-family: 'Roboto', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 21px;
+    letter-spacing: 0.1em;
+    text-transform: uppercase;
 }
 
 .topic_message {
-    height: 72px;
+    height: 21px;
+    border-bottom: 1px solid #9DBEBB;
+    font-family: 'Roboto', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 21px;
+    Size: 18px;
+    Line-height: 21.09px;
+    letter-spacing: 0.1em;
+    text-transform: uppercase;
+    color: rgba(254, 255, 255, 0.98);
+    
 }
 
-.btn_send_message {
-    height: 48px;
+.btn-submit {
+    display: flex;
     width: 202px;
-    background-color: #468189;
+    height: 48px;
+    padding-left: 164px;
+    padding-bottom: 64px;
+    background: #468189;
     box-shadow: 0px 0px 12px rgba(0, 0, 0, 0.5);
     border-radius: 40px;
+    /* Här blir det lite konstigt när jag ska göra submit-knappen invisible och placera på rätt plats?
+    Den blir olika stor? */
+}
+
+
+.text_btn_submit {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 21px;
+    letter-spacing: 0.1em;
+    text-transform: uppercase;
+    
+    color: #FFFFFF;
+}
+
+.duck {
+    Width: 663px;
+    Height: 603px;
+    position: absolute;
+    margin-left: 585px;
+    margin-top: 205px;
+    border: 1px;
+    border-color: black;
+}
+
+.rectangle {
+    width: 345px;
+    height: 594px;
+    margin-top: 153px;
+    margin-right: 243px;
 }
