@@ -18,7 +18,6 @@
     font-style: normal;
     font-weight: 400;
     text-transform: uppercase;
-    /* Hur får jag bort de */
 
 }
 
@@ -37,8 +36,7 @@
     letter-spacing: 0.1em;
     text-transform: uppercase;
     border-bottom: 1px solid #9DBEBB; width: 400px;
-    type="hidden":
-
+    /* hur får jag bort boxarna utan "type:"hidden" som också tar bort funktionen?*/
 }
 
 .topic_email {
