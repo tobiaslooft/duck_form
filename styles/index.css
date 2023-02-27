@@ -133,7 +133,7 @@
     border-radius: 40px;
 }
 
-.text_btn_submit {
+.text_btn_submit:hover {
     font-family: 'Roboto';
     font-style: normal;
     font-weight: 700;
