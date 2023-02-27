@@ -18,7 +18,7 @@
     font-style: normal;
     font-weight: 400;
     text-transform: uppercase;
-
+    
 }
 
 .all-text {
@@ -30,19 +30,32 @@
     height: 72px;
     font-family: 'Roboto', sans-serif;
     font-style: normal;
+    margin: 20px 0;
     font-weight: 400;
     font-size: 18px;
     line-height: 21px;
     letter-spacing: 0.1em;
     text-transform: uppercase;
     border-bottom: 1px solid #9DBEBB; width: 400px;
-    /* hur får jag bort boxarna utan "type:"hidden" som också tar bort funktionen?*/
+    
+    /* Hur gör jag boxarna osynliga men fungerande? */
+}
+
+#name {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 20px 0;
+    box-sizing:border-box;
+    border-bottom: 2px solid white;
+    background-color: #BE0909;
+    /* Hur får jag bort den svarta bordern?*/
 }
 
 .topic_email {
     height: 72px;
     font-family: 'Roboto', sans-serif;
     font-style: normal;
+    margin: 20px 0;
     font-weight: 400;
     font-size: 18px;
     line-height: 21px;
@@ -51,11 +64,19 @@
     border-bottom: 1px solid #9DBEBB; width: 160px;
 }
 
+#email {
+    width: 100%;
+    padding: 12px 20px;
+    margin-bottom: 22px;
+    box-sizing: border-box;
+    border-bottom: 2px solid white;
+    background-color: #BE0909;
+    /* Hur får jag bort den svarta bordern?*/
+}
+
+
 .topic_messade_regarding {
-    height: 72px;
-    border-bottom: 1px solid #9DBEBB; width: 160px;
-    /* varför blir border kontig när jag ändrar den till 160px i bredd?*/
-    font-family: 'Roboto', sans-serif;
+    font-family: 'Roboto';
     font-style: normal;
     font-weight: 400;
     font-size: 18px;
@@ -69,6 +90,7 @@
     border-bottom: 1px solid #9DBEBB;
     font-family: 'Roboto', sans-serif;
     font-style: normal;
+    padding-top: ;
     font-weight: 400;
     font-size: 18px;
     line-height: 21px;
@@ -80,19 +102,36 @@
     
 }
 
+#topic_message_regarding {
+    width: 100%;
+    padding: 12px 20px;
+    margin-top: 
+    box-sizing: border-box;
+    border-bottom: 2px solid white;
+    background-color: #BE0909;
+    
+}
+
+#message_area {
+    width: 400px;
+    height: 72px;
+    padding: 12px 20px;
+    margin: 20px 0;
+    box-sizing: border-box;
+    border-bottom: 2px solid white;
+    background-color: #BE0909;
+    /* Hur får jag bort den svarta bordern?*/
+}
+
 .btn-submit {
-    display: flex;
     width: 202px;
     height: 48px;
-    padding-left: 164px;
-    padding-bottom: 64px;
+    margin-top: 97px;
+    margin-left: 164px;
     background: #468189;
     box-shadow: 0px 0px 12px rgba(0, 0, 0, 0.5);
     border-radius: 40px;
-    /* Här blir det lite konstigt när jag ska göra submit-knappen invisible och placera på rätt plats?
-    Den blir olika stor? */
 }
-
 
 .text_btn_submit {
     font-family: 'Roboto';
@@ -100,9 +139,10 @@
     font-weight: 700;
     font-size: 18px;
     line-height: 21px;
+    text-align: center;
     letter-spacing: 0.1em;
-    text-transform: uppercase;
     color: #FFFFFF;
+    
 }
 
 .duck {

@@ -9,26 +9,30 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
+    
+  />
+
 </head>
 <body class="macbook">
-    <div class="invite-form">
+    <div class="invite-form" :hover>
         <form action="form">
             <div class="all-text">
             <div class="full_name">
-                <h5>FULL NAME</h5>
-                <input type="text" placeholder="Full name">
+                <label for="name">FULL NAME</label>
+                <input type="text" id="name" placeholder="Full name">
             </div>
             <div class="topic_email">
-                <h5>EMAIL</h5>
-                <input type="email" placeholder="Your Email">
+                <label for="email">E-MAIL</label>
+                <input type="email" id="email" required placeholder="Your Email">
             </div>
             <div class="topic_messade_regarding">
-                <h5>MESSAGE REGARDING</h5>
-                <input type="text" placeholder="Message regarding">
+                <label for="topic_message_regarding">MESSAGE REGARDING</label>
+                <input type="text" id="topic_message_regarding" placeholder="">
             </div>
             <div class="topic_message">
-                <h5>MESSAGE</h5>
-                <textarea name="message" id="text_area" hidden cols="30" rows="3" placeholder="Your message">
+                <label for="message_area">MESSAGE</label>
+                <textarea name="message" id="message_area" cols="1" rows="3" placeholder="Your message">
                 </textarea>
             </div>
             </div>
